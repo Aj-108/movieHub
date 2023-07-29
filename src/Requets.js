@@ -1,4 +1,4 @@
-const API_KEY = 'a6248bf72153370fbeda6e1cb1b8e190' ;
+const API_KEY = process.env.REACT_APP_API_KEY ;
 // TODO make a env file for hiding API KEY
 
 const requests = {

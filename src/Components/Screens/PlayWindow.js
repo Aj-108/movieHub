@@ -8,7 +8,7 @@ import Row2 from '../Row2';
 
 function PlayWindow() {
   const base_url = "https://image.tmdb.org/t/p/original" ;
-    const API_KEY = 'a6248bf72153370fbeda6e1cb1b8e190' ;
+    const API_KEY = process.env.REACT_APP_API_KEY ;
     const {movieId,type} = useParams() ;
     const [movie,setMovie] = useState([]) ;
     const fetchMovieDetails =  `/${type}/${movieId}?api_key=${API_KEY}&language=en-US` ;
