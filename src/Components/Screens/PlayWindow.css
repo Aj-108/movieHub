@@ -1,0 +1,76 @@
+.playWindow {
+    background-color: rgb(26,26,26);
+    position: relative;
+    padding-top: 100px;
+    /* margin-left:40px */
+} 
+
+.playwindow__container{
+    font-family: monospace; 
+    margin-left : 20px ;
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: space-around;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+.play__image{
+    width: 700px;
+}
+
+.play__top{
+    display: flex;
+    flex-direction: column;
+    max-width: 55%;
+}
+
+.play__title{
+    font-size: 3rem;
+    color: rgb(196, 143, 65);
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-family: monospace;
+}
+
+.play__tagline{
+    color: rgb(167, 167, 167);
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.play__desc{
+    font-size: 15px;
+    text-align: justify;
+    color: rgb(124, 124, 124);
+    font-family: monospace;
+}
+
+.play__middle{
+    display: flex;
+    color: rgb(151, 151, 151);
+}
+
+.play__genre{
+    display: flex;
+    color: rgb(151, 151, 151);
+    margin-bottom: 15px;
+    /* justify-content: space-between; */
+    /* max-width: 25%; */
+}
+
+.play__genreName{
+    margin-right: 16px;
+    font-size: 15px;
+}
+
+.play__date{
+    color: rgb(151, 151, 151);
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.similarMovies{
+    color: white;
+}

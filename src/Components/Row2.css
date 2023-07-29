@@ -1,0 +1,43 @@
+.rowTray__posters{
+    display: flex;
+    overflow-x: scroll;
+    margin-left: 40px;
+    transform: translate(0px);
+    transition: all 0.5s ease;
+}
+
+.rowTray__posters::-webkit-scrollbar{
+    display: none;
+}
+
+.row__titleName {
+    margin-left: 40px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color : rgb(216, 163, 82) ;
+}
+
+.rowTray {
+    display: flex;
+    align-items: center;
+}
+
+.beforeArrow {
+    position : absolute ;
+    margin-top: -20px;
+    cursor: pointer;
+    background-color: rgba(53, 52, 52, 0.13);
+    z-index: 99;
+    display: none;
+}
+
+.nextArrow {
+    position: absolute;
+    margin-top: -20px;
+    right: 0;
+    cursor: pointer;
+    background-color: rgba(53, 52, 52, 0.13);
+    z-index: 99;
+}

@@ -1,0 +1,81 @@
+.footer{
+    background-color: #111;
+    color: rgb(104,102,104);
+    margin-top: 40px;
+    padding-left: 200px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__socialIcons{
+    display: flex;
+}
+
+.socialIcon{
+    margin-right: 12px;
+    margin-bottom: 15px;
+    font-size: 1.6rem !important;
+}
+
+.socialIcon:hover{
+    color : white ;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    transform : scale(1.1);
+    cursor: pointer;
+}
+
+.footer__cols {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer__col ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0px;
+}
+
+.footer__col ul li {
+    margin-bottom: 15px;
+}
+
+.footer__col ul li:hover {
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.footer__button button{
+    background-color: transparent;
+    color: rgb(104,102,104) ;
+    border: 1px solid rgb(104,102,104);
+    padding: 5px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.footer__button button:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+    color: #111;
+    transition: all 0.5s;
+}
+
+.footer__copyright{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: rgb(196, 143, 65);
+    font-weight: 500;
+}
+
+.copyRight{
+    font-size: 13px !important;
+}
